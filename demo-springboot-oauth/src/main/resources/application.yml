@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo_springboot_oauth
+    username:
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
